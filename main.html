@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student of The Year 3.0 - Treasure Hunt</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.85);
+        }   
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('/treasure_hunt/WhatsApp\ Image\ 2025-02-10\ at\ 01.24.59_b6d6cc0f.jpg') no-repeat center center;
+            background-size: cover;
+            opacity: 0.15;
+            z-index: -1;
+        }
+
+        .container {
+            background: rgba(30, 0, 61, 0.636);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(5px);
+            max-width: 600px;
+            width: 90%;
+            margin: 20px;
+            color: #fff;
+        }
+
+        h1 {
+            color: #ffdd57;
+            margin-bottom: 25px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        input {
+            padding: 12px;
+            width: 250px;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            outline: none;
+            margin: 5px;
+        }
+
+        input::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        input:focus {
+            border-color: #ffdd57;
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 10px rgba(255, 221, 87, 0.3);
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            background: #ffdd57;
+            color: #333;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background: #ffc107;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            background: #e0a800;
+            transform: translateY(0) scale(0.98);
+        }
+
+        #clue-display {
+            margin-top: 25px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            white-space: pre-line;
+            line-height: 1.6;
+        }
+
+        .error {
+            color: #ff6b6b;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+
+            input {
+                width: 80%;
+                max-width: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TREASURE HUNT</h1>
+        <input type="number" id="team" placeholder="Team Number" min="1" max="15" required>
+        <input type="number" id="pin" placeholder="Enter PIN" max="999999" required>
+        <button type="button" id="clueButton">GET NEXT CLUE</button>
+        <p id="clue-display"></p>
+    </div>
+
+    <script type = "module">
+        document.addEventListener('DOMContentLoaded', function() {
+            const clueButton = document.getElementById('clueButton');
+            clueButton.addEventListener('click', getNextClue);
+        });
+
+        async function getNextClue() {
+            const teamNo = document.getElementById("team").value;
+            const pin = document.getElementById("pin").value;
+            const clueDisplay = document.getElementById("clue-display");
+
+            // Input validation
+            if (!teamNo || !pin) {
+                clueDisplay.innerHTML = '<span class="error">Please enter Team number and PIN</span>';
+                return;
+            }
+
+            if (teamNo < 1 || teamNo > 15) {
+                clueDisplay.innerHTML = '<span class="error">Team number must be between 1 and 15</span>';
+                return;
+            }
+
+            try {
+                const response = await fetch('clues.json');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch clues');
+                }
+
+                const data = await response.json();
+                
+                // Find the stage number and team number where the PIN matches
+                let foundClue = null;
+                let stageNumber = null;
+
+                // Search through the codes object to find matching PIN
+                for (let stage in data.codes) {
+                    for (let level in data.codes[stage]) {
+                        if (data.codes[stage][level] === pin) {
+                            foundClue = data.clues[stage][level];
+                            stageNumber = level;
+                            break;
+                        }
+                    }
+                    if (foundClue) break;
+                }
+
+                if (foundClue) {
+                    // Special case for final clue
+                    if (pin === "FINAL") {
+                        clueDisplay.innerText = data.final_clue;
+                    } else {
+                        clueDisplay.innerText = foundClue;
+                    }
+                } else {
+                    clueDisplay.innerHTML = '<span class="error">Invalid PIN! Please try again.</span>';
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                clueDisplay.innerHTML = '<span class="error">An error occurred. Please try again later.</span>';
+            }
+        }
+    </script>
+</body>
+</html>
