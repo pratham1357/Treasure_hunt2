@@ -21,7 +21,7 @@ async function getNextClue() {
     }
 
     try {
-        const response = await fetch('treasure_hunt\clues.json');
+        const response = await fetch('clues.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
