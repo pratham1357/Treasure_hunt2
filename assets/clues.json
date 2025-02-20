@@ -1,0 +1,190 @@
+{
+    "clues": {
+      "1": {
+        "1": "When nature stirs, we stand prepared,\n In this hall, knowledge is shared.\n By the lot where the honored stay,\n Your next clue is tucked away.",
+        "2": "Where innovation finds its way,\n And H.O.M.E. shapes life each day.\n Crafting organs, a future so bright,\n Seek your clue where science ignites!",
+        "3": "A symbol of strength, standing tall,\n Metal beast that guards us all.\n Find the tracks where warriors stand,\n Your next clue lies close at hand!",
+        "4": "A place where cool delights bring cheer,\n And gadgets new are always near.\n Step where tech and treats unite,\n Your next clue hides in plain sight!"
+      },
+      "2": {
+        "1": "Where engines hum and ideas ignite,\n Machines take shape, precision tight.\n Driven by passion, built with care,\n Your next clue waits in the lab back there.",
+        "2": "A place of exchange, now left behind,\n Where hands once met in search aligned.\n By the path of blood and ashes spread,\n Trace the past where footsteps led.",
+        "3": "A hidden path, both dark and bright,\n Sheltered steps steal from sight.\n Between wisdom’s keep and a place of rest,\n Find where hearts walk—your next quest!",
+        "4": "Where echoes of ink meet paper’s embrace,\n And endless streams leave no trace.\n A name that whispers of waters grand,\n Find your clue where copies stand!"
+      },
+      "3": {
+        "1": "Three paths diverge, a choice to make,\n One for wisdom, one for a break.\n The third stands quiet, open and free,\n Where the sun sets beyond the trees.",
+        "2": "Where power hums, yet lights still gleam,\n A hidden force behind the scene.\n East of the hall, out of view,\n Your next clue waits, just there for you.",
+        "3": "Where colors shine, both bright and bold,\n A place of freshness, crisp and cold.\n Beside a sip so thick and sweet,\n Find your clue where health and taste meet.",
+        "4": "Where the journey starts, both old and new,\n By colors high in sky so true.\n Three mighty horses, frozen in stride,\n Find your clue where they reside."
+      },
+      "4": {
+            "1": "Where knowledge flows and waters rise,\n A hidden path beneath the skies.\n Bridging the way through green embrace,\n Find your clue in this tranquil space!",
+            "2": "Where strength is tested, firm and true,\n And engines roar with tasks to do.\n Concrete ideas take their form,\n Find your clue where structures are born.",
+            "3": "Between wisdom’s keep and a feast well-known,\n A path stands lined with wheels alone.\n By day, a passage bustling bright,\n By night, a hush—a ghostly sight.",
+            "4": "Where ideas rise and minds elect, A place to learn,\n explore, select.\n From the western path, step right through,\n Trust your sense—the next clue waits for you."
+        },
+        "5": {
+            "1": "Where stories rest and journeys rewind,\n A stop before new tales you find.\n Return the past, make space for new,\n Your next clue is waiting for you!",
+            "2": "Where voices falter, they find repair,\n New ones emerge, crisp and clear.\n Above, a place of silent might,\n Guiding all who work with byte.",
+            "3": "Where healing hands and memories stay,\n A tribute stands not far away.\n Though it may seem like a place of rest,\n It honors a leader, among the best.",
+            "4": "Between the walls where borders blend,\n In leafy shade, where paths extend.\n A place nearby helps sights stay clear,\n Look around—your clue is near."
+        },
+        "6": {
+            "1": "Amidst the buzz where laughter stays,\n Find the path that few dare gaze.\n Northwest whispers secrets untold,\n Venture forth, let clues unfold!",
+            "2": "Where flavors blend and skills take flight,\n A place that perfects the art of delight.\n Hospitality thrives, both warm and grand,\n Find your clue where future chefs stand!",
+            "3": "Beyond the courts where players stride,\n Eastward, where secrets hide.\n A quiet lab, its name tells a tale,\n Near where new Identities set sail.",
+            "4": "Where many paths converge as one,\n A guiding point for all who come.\n Standing still yet leading the way,\n Find your clue here today!"
+        },
+        "7": {
+            "1": "Where plans take shape and stalls come alive,\n A stop for those who craft and strive.\n Behind bold colors that tell a tale,\n Your next clue rests beyond the veil.",
+            "2": "A circular path where journeys blend,\n Linking the start to knowledge’s end.\n Between the gate and learning’s space,\n Find your clue in this central place.",
+            "3": "Guardians of wood stand side by side,\n Framing the path where secrets hide.\n Beyond the gate where waters gleam,\n Between the two, find your dream!",
+            "4": "Where service and snacks go hand in hand,\n A corner of change, both small and grand.\n To the western side, take a stroll,\n Your next clue lies near heart and soul."
+        },
+        "8": {
+            "1": "When nature stirs, we stand prepared,\n In this hall, knowledge is shared.\n By the lot where the honored stay,\n Your next clue is tucked away.",
+            "2": "A place of exchange, now left behind,\n Where hands once met in search aligned.\n By the path of blood and ashes spread,\n Trace the past where footsteps led.",
+            "3": "Where healing hands and memories stay,\n A tribute stands not far away.\n Though it may seem like a place of rest,\n It honors a leader, among the best.",
+            "4": "Where the journey starts, both old and new,\n By colors high in sky so true.\n Three mighty horses, frozen in stride,\n Find your clue where they reside."
+        },
+        "9": {
+            "1": "Where engines hum and ideas ignite,\n Machines take shape, precision tight.\n Driven by passion, built with care,\n Your next clue waits in the lab back there.",
+            "2": "Where innovation finds its way,\n And H.O.M.E. shapes life each day.\n Crafting organs, a future so bright,\n Seek your clue where science ignites!",
+            "3": "Beyond the courts where players stride,\n Eastward, where secrets hide.\n A quiet lab, its name tells a tale,\n Near where new Identities set sail.",
+            "4": "Between the walls where borders blend,\n In leafy shade, where paths extend.\n A place nearby helps sights stay clear,\n Look around—your clue is near."
+        },
+        "10": {
+            "1": "Three paths diverge, a choice to make,\n One for wisdom, one for a break.\n The third stands quiet, open and free,\n Where the sun sets beyond the trees.",
+            "2": "Where strength is tested, firm and true,\n And engines roar with tasks to do.\n Concrete ideas take their form,\n Find your clue where structures are born.",
+            "3": "A symbol of strength, standing tall,\n Metal beast that guards us all.\n Find the tracks where warriors stand,\n Your next clue lies close at hand!",
+            "4": "Where service and snacks go hand in hand,\n A corner of change, both small and grand.\n To the western side, take a stroll,\n Your next clue lies near heart and soul."
+        },
+        "11": {
+            "1": "Where knowledge flows and waters rise,\n A hidden path beneath the skies.\n Bridging the way through green embrace,\n Find your clue in this tranquil space!",
+            "2": "Where power hums, yet lights still gleam,\n A hidden force behind the scene.\n East of the hall, out of view,\n Your next clue waits, just there for you.",
+            "3": "Guardians of wood stand side by side,\n Framing the path where secrets hide.\n Beyond the gate where waters gleam,\n Between the two, find your dream!",
+            "4": "Where echoes of ink meet paper’s embrace,\n And endless streams leave no trace.\n A name that whispers of waters grand,\n Find your clue where copies stand!"
+        },
+        "12": {
+            "1": "Where stories rest and journeys rewind,\n A stop before new tales you find.\n Return the past, make space for new,\n Your next clue is waiting for you!",
+            "2": "Where flavors blend and skills take flight,\n A place that perfects the art of delight.\n Hospitality thrives, both warm and grand,\n Find your clue where future chefs stand!",
+            "3": "Where colors shine, both bright and bold,\n A place of freshness, crisp and cold.\n Beside a sip so thick and sweet,\n Find your clue where health and taste meet.",
+            "4": "A place where cool delights bring cheer,\n And gadgets new are always near.\n Step where tech and treats unite,\n Your next clue hides in plain sight!"
+        },
+        "13": {
+            "1": "Amidst the buzz where laughter stays,\n Find the path that few dare gaze.\n Northwest whispers secrets untold,\n Venture forth, let clues unfold!",
+            "2": "Where voices falter, they find repair,\n New ones emerge, crisp and clear.\n Above, a place of silent might,\n Guiding all who work with byte.",
+            "3": "A hidden path, both dark and bright,\n Sheltered steps steal from sight.\n Between wisdom’s keep and a place of rest,\n Find where hearts walk—your next quest!",
+            "4": "Where many paths converge as one,\n A guiding point for all who come.\n Standing still yet leading the way,\n Find your clue here today!"
+        },
+        "14": {
+            "1": "Where plans take shape and stalls come alive,\n A stop for those who craft and strive.\n Behind bold colors that tell a tale,\n Your next clue rests beyond the veil.",
+            "2": "A circular path where journeys blend,\n Linking the start to knowledge’s end.\n Between the gate and learning’s space,\n Find your clue in this central place.",
+            "3": "Between wisdom’s keep and a feast well-known,\n A path stands lined with wheels alone.\n By day, a passage bustling bright,\n By night, a hush—a ghostly sight.",
+            "4": "Where ideas rise and minds elect,\n A place to learn, explore, select.\n From the western path, step right through,\n Trust your sense—the next clue waits for you."
+        },
+        "15": {
+            "1": "When nature stirs, we stand prepared,\n In this hall, knowledge is shared.\n By the lot where the honored stay,\n Your next clue is tucked away.",
+            "2": "A place of exchange, now left behind,\n Where hands once met in search aligned.\n By the path of blood and ashes spread,\n Trace the past where footsteps led.",
+            "3": "Where healing hands and memories stay,\n A tribute stands not far away.\n Though it may seem like a place of rest,\n It honors a leader, among the best.",
+            "4": "Between the walls where borders blend,\nIn leafy shade, where paths extend.\nA place nearby helps sights stay clear,\nLook around—your clue is near."
+          } 
+  },
+
+    "codes" : {
+
+    "1": {
+        "1": "648290",
+        "2": "175049",
+        "3": "157394",
+        "4": "508172"
+    },
+    "2": {
+        "1": "762583",
+        "2": "637840",
+        "3": "105278",
+        "4": "641923"
+    },
+    "3": {
+        "1": "576192",
+        "2": "342871",
+        "3": "851406",
+        "4": "920451"
+    },
+    "4": {
+        "1": "758293",
+        "2": "834610",
+        "3": "836152",
+        "4": "192837"
+    },
+    "5": {
+        "1": "529437",
+        "2": "590324",
+        "3": "782340",
+        "4": "452190"
+    },
+    "6": {
+        "1": "849203",
+        "2": "364981",
+        "3": "483719",
+        "4": "618293"
+    },
+    "7": {
+        "1": "209574",
+        "2": "713482",
+        "3": "296384",
+        "4": "493827"
+    },
+    "8": {
+        "1": "648290",
+        "2": "637840",
+        "3": "782340",
+        "4": "920451"
+    },
+    "9": {
+        "1": "762583",
+        "2": "175049",
+        "3": "483719",
+        "4": "452190"
+    },
+    "10": {
+        "1": "576192",
+        "2": "834610",
+        "3": "157394",
+        "4": "493827"
+    },
+    "11": {
+        "1": "758293",
+        "2": "342871",
+        "3": "296384",
+        "4": "641923"
+    },
+    "12": {
+        "1": "529437",
+        "2": "364981",
+        "3": "851406",
+        "4": "508172"
+    },
+    "13": {
+        "1": "849203",
+        "2": "590324",
+        "3": "105278",
+        "4": "618293"
+    },
+    "14": {
+        "1": "209574",
+        "2": "713482",
+        "3": "836152",
+        "4": "192837"
+    },
+    "15": {
+        "1": "648290",
+        "2": "637840",
+        "3": "782340",
+        "4": "452190"
+     },
+    "final_clue": "Pushpa, I hate tears... But you might just shed a few if you overthink this one! Rishtey mein toh hum tumhare baap lagte hain... Lekin iss waqt, sirf ek clue dene waale insaan hain! Not all battlegrounds have warriors so bold, Some fight with a sphere, not weapons of gold. Where victories are won with a flick of the hand, Go back to the start—your prize is at hand!"
+  }
+}
+  
